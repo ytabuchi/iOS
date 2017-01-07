@@ -149,6 +149,10 @@
       <DependentUpon>CustomTableViewCell.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomTableViewSource.cs" />
+    <Compile Include="DefaultTableViewController.cs" />
+    <Compile Include="DefaultTableViewController.designer.cs">
+      <DependentUpon>DefaultTableViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Models\TableItem.cs" />
@@ -157,6 +161,9 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="monkey1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
